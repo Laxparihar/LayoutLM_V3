@@ -42,7 +42,9 @@ This project trains a LayoutLMv3 model for document classification using Hugging
    ```sh
    pip install -r requirements.txt
    ```
-
+4. Install detectron2
+   pip install --upgrade pip setuptools wheel ; pip install cython
+   pip install layoutparser torchvision && pip install "detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2"
 ## Dataset Structure
 
 The dataset should be structured as follows:
